@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of CSS</title>
+    <style>
+
+        h3{
+            text-decoration: underline;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .myClass{
+            color: blueviolet;
+            font-size: 60px;
+        }
+
+        #myId{
+            color: crimson ;
+            letter-spacing: 5px;
+            font-size: 40px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <h1 style="color: red; font-size: 50ox;">Inline CSS is used to apply CSS in individual tags only</h1>
+
+    <h3>Internal CSS is used to apply CSS on entire page at once</h3>
+
+    <h3 class="myClass">Name selector is used to select elements by their tag name</h3>
+
+    <p class="myClass">Class Selector is used to select elements by theier class name</p>
+
+    <p id="myId" style="color: chartreuse;">ID Selector is used to select elements by their ID name</p>
+    
+    <h1 class="external">External CSS is used to apply CSS on multiple pages at once</h1>
+
+</body>
+</html>

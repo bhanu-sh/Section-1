@@ -10,9 +10,14 @@
 
     <form action="">
       <label>Full Name:</label>
-      <input type="text" name="name" />
+      <input type="text" name="name" required minlength="4"/>
 
       <br /><br />
+
+      <label for=""></label>
+      <input type="password" name="pass">
+
+      <br><br>
 
       <label>Gender:</label>
       <input type="radio" name="gender" /> Male
@@ -51,7 +56,7 @@
       <details>
         <summary>Terms and Condition</summary>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, enim
+          Lorem, ipsum dolor <mark> sit amet consectetur adipisicing elit.</mark> Quod, enim
           omnis ut dolorem, adipisci similique vel natus, perferendis magnam
           atque dolor provident amet! Voluptates aspernatur doloremque
           repellendus cupiditate placeat nobis enim eum sapiente? Molestias
@@ -61,6 +66,11 @@
       </details>
 
       <br /><br />
+
+      <input type="checkbox" name="tc" required>
+      <label for="">I Accept Terms and Conditions</label>
+
+      <br><br>
 
       <button type="submit">Submit</button>
     </form>
