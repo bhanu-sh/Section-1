@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+
+    
+
+    <style>
+
+        .mycard{
+            /* border: 2px solid red; */
+            width: 25%;
+            padding: 40px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            /* x-offset y-offset blur size color */
+            box-shadow: 3px 3px 10px 2px #00000093;
+            background-color: white;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: crimson;
+        }
+
+        .myinput{
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: 1px solid black;
+            margin-bottom: 20px;
+            margin-top: 5px;
+        }
+
+        .my-btn{
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: crimson;
+            color: white;
+            border: none;
+            font-weight: bold;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+
+        .my-btn:hover{
+            background-color: rgb(255, 85, 119);
+        }
+        
+        .my-btn:focus{
+            outline: 3px solid #ffb2c2;
+        }
+
+        .form-title{
+            font-family: Montserrat;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        *{
+            font-family: Montserrat;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="mycard">
+        <h3 class="form-title">Login Here</h3>
+
+        <form>
+
+            <label for="email">Email Address</label>
+            <input type="email" class="myinput">
+
+            <label for="password">Password</label>
+            <input type="password" class="myinput">
+
+            <button type="button" class="my-btn">Submit</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
